@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Water_Drop_Animation_Assignment</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <style>
+        body>div{
+            height: 1px;
+            width: 1px;
+            border: 7px solid #3379b6;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            border-radius: 100%;
+            animation: water_drop 3s infinite;
+        }
+        @keyframes water_drop {
+            from{
+                height: 1px;
+                width: 1px;
+            }
+            to{
+                height: 300px;
+                width: 300px;
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<div>
+
+</div>
+</body>
+</html>
